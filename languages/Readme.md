@@ -2,4 +2,4 @@
 {translation-domain}-{localisation}.po
 
 ex:
-disciple-tools-plugin-starter-template-fr_FR.po
+disciple-tools-echo-fr_FR.po
