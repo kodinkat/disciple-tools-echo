@@ -111,10 +111,10 @@ class Disciple_Tools_Echo {
         /**
          * @todo Decide if you want to add new charts to the metrics section
          * To remove: delete the line below and remove the folder named /charts
-         */
+         *
         if ( strpos( dt_get_url_path(), 'metrics' ) !== false || ( $is_rest && strpos( dt_get_url_path(), 'disciple-tools-echo-metrics' ) !== false ) ) {
             require_once( 'charts/charts-loader.php' );  // add custom charts to the metrics area
-        }
+        }*/
 
         /**
          * @todo Decide if you want to add a custom tile
