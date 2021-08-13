@@ -2,7 +2,7 @@
 
   "name": "Disciple Tools - Echo",
   "version": "1.0",
-  "last_updated": "2021-03",
+  "last_updated": "2021-08",
   "author": "Disciple Tools",
   "author_homepage": "https://disciple.tools",
   "git_owner": "DiscipleTools",
@@ -23,7 +23,7 @@
     "high": "https://raw.githubusercontent.com/DiscipleTools/disciple-tools-echo/master/documentation/banner.png"
   },
   "sections": {
-    "description": "Kick start your Disciple.Tools plugin project with this template! This plugin is a collection of our best practices and code bases for creating Disciple.Tools plugins. ",
+    "description": "Integrate Echo conversations with Disciple Tools and capture key contact information based on pre-determined outcomes.",
     "installation": "(Required) You must have Disciple.Tools Theme installed before using this plugin. Once Disciple.Tools is installed, you can use the normal Plugin system to install the plugin.",
     "changelog": ""
   }
