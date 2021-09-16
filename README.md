@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/DiscipleTools/disciple-tools-echo.svg?branch=master)](https://travis-ci.com/DiscipleTools/disciple-tools-echo)
 
+![Echo](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-echo/master/documentation/echo-banner.png)
 # Disciple Tools - Echo
 
 Integrate Echo conversations with Disciple Tools and capture key contact information based on pre-determined outcomes.
