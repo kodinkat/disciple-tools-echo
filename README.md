@@ -2,6 +2,7 @@
 
 ![Echo](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-echo/master/documentation/echo-banner.png)
 # Disciple Tools - Echo
+Developped in partnership with [MII](https://mii.global)
 
 Integrate Echo conversations with Disciple Tools and capture key contact information based on pre-determined outcomes.
 
