@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/DiscipleTools/disciple-tools-echo.svg?branch=master)](https://travis-ci.com/DiscipleTools/disciple-tools-echo)
 
-![Echo](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-echo/master/documentation/echo-banner.png)
+![Plugin Banner](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-echo/master/documentation/echo-banner.png)
 # Disciple Tools - Echo
 Developped in partnership with [MII](https://mii.global)
 
