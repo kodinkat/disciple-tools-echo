@@ -5,7 +5,7 @@
  * Description: Disciple Tools - Echo plugin is intended to integrate Echo Platform with the Disciple Tools system.
  * Text Domain: disciple-tools-echo
  * Domain Path: /languages
- * Version:  1.0
+ * Version:  1.1
  * Author URI: https://github.com/DiscipleTools
  * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-echo
  * Requires at least: 4.7.0
