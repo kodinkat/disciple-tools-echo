@@ -5,32 +5,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /**
- * Extend schedule options.
- */
-
-add_filter( 'cron_schedules', 'cron_schedules_dt_echo_callback', 10, 1 );
-function cron_schedules_dt_echo_callback( $schedules ): array {
-    $arr = array();
-
-    $arr['minute'] = array(
-        'interval' => 1 * MINUTE_IN_SECONDS,
-        'display'  => __( 'Every Minute' )
-    );
-
-    $arr['5_minutes'] = array(
-        'interval' => 5 * MINUTE_IN_SECONDS,
-        'display'  => __( 'Every 5 Minutes' )
-    );
-
-    return $arr;
-}
-
-/**
  * Register cron module.
  */
 
 if ( ! wp_next_scheduled( 'dt_echo_sync' ) ) {
-    wp_schedule_event( time(), 'minute', 'dt_echo_sync' );
+    wp_schedule_event( time(), '5min', 'dt_echo_sync' );
 }
 
 /**
