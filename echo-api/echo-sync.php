@@ -5,18 +5,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /**
- * Register cron module.
- */
-
-if ( ! wp_next_scheduled( 'dt_echo_sync' ) ) {
-    wp_schedule_event( time(), '5min', 'dt_echo_sync' );
-}
-
-/**
  * Core synchronisation logic.
  */
 
-add_action( 'dt_echo_sync', 'dt_echo_sync_run' );
+add_action( Disciple_Tools_Echo_API::$schedule_cron_event_hook, 'dt_echo_sync_run' );
 function dt_echo_sync_run() {
 
     // DT <- Echo Sync

@@ -170,6 +170,8 @@ class Disciple_Tools_Echo_Tab_General {
             }
             update_option( 'dt_echo_api_host', $echo_api_host );
 
+            // Request scheduling of cron event
+            Disciple_Tools_Echo_API::schedule_cron_event();
         }
 
         // Available Echo Conversation Option Additions
@@ -238,10 +240,14 @@ class Disciple_Tools_Echo_Tab_General {
     }
 
     private function fetch_echo_api_token(): string {
+        Disciple_Tools_Echo_API::schedule_cron_event();
+
         return get_option( 'dt_echo_api_token' );
     }
 
     private function fetch_echo_api_host(): string {
+        Disciple_Tools_Echo_API::schedule_cron_event();
+
         return get_option( 'dt_echo_api_host' );
     }
 
