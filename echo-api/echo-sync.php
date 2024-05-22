@@ -432,7 +432,7 @@ function handle_updates( $echo_convo, $dt_record, &$logs ) {
                     "user_id"        => 0,
                     "comment_author" => $echo_message->name,
                     "comment_date"   => gmdate( 'Y-m-d H:i:s', $echo_message->created_at_secs )
-                ], false );
+                ], false, true );
             }
         }
     }
